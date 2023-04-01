@@ -44,6 +44,116 @@
     }
 }
 
+.top {
+    margin-bottom: 100px;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+
+    &__title-box {
+        position: relative;
+        margin-right: 125px;
+    }
+
+    &__title-one {
+        @extend%stangith-normal;
+        font-size: 125.628px;
+        line-height: 173px;
+        padding-left: 170px;
+    }
+
+    &__title-text {
+        @extend%stangith-light;
+        position: absolute;
+        width: 165px;
+        left: 15px;
+        top: 64px;
+    }
+
+    &__title-two {
+        @extend%stangith-normal;
+        font-size: 99.946px;
+        line-height: 138px;
+        display: block;
+    }
+
+    &__title-img {
+        position: absolute;
+        right: 0;
+        bottom: 3px;
+        display: block;
+    }
+
+    &__img-one {
+        align-self: end;
+        margin-top: 20px;
+    }
+
+    &__content {
+        border-top: 1px solid #D0D5DE;
+        border-bottom: 1px solid #D0D5DE;
+        display: flex;
+
+
+    }
+
+    &__content-boximg {
+        padding: 50px 80px 50px 0;
+        border-right: 1px solid #D0D5DE;
+    }
+
+    &__content-img {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    &__content-box {
+        padding: 50px 0 50px 80px;
+    }
+
+    &__content-title {
+        width: 566px;
+        margin-bottom: 40px;
+    }
+
+    &__content-title {
+        @extend%stangith-normal;
+        font-size: 70.9649px;
+        line-height: 78px;
+        position: relative;
+
+        span {
+            padding-left: 130px;
+
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-image: url('../images/icons/top6.jpg');
+            width: 140px;
+            height: 56px;
+            bottom: 8px;
+            left: 190px;
+
+        }
+    }
+
+
+
+    &__content-subtitle {
+        width: 750px;
+    }
+}
+
+
 
 
 
