@@ -3,35 +3,35 @@ body {
     height: 100%;
 }
 
-// body {
-//   @extend%quicksand-500;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 27px;
-//   color: $default;
-//   overflow-x: hidden;
-//   min-width: 320px;
-//   display: flex;
-//   flex-direction: column;
-// }
+body {
+    @extend%stangith-normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #223865;
+    overflow-x: hidden;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
 
-// .main {
-//   flex-grow: 1;
-// }
+.main {
+    flex-grow: 1;
+}
 
-// .container {
-//   max-width: 1200px;
-//   margin: 0 auto;
-//   padding: 0 15px;
-// }
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
-// .title {
-//   @extend%roboto-700;
-//   font-size: 48px;
-//   text-transform: uppercase;
-//   margin-bottom: 20px;
-//   color: $title;
-// }
+.title {
+    @extend%sofia-pro-400;
+    font-size: 70.9649px;
+    line-height: 98px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #223865;
+}
 
 // .breadcrumbs {
 //   display: inline-flex;

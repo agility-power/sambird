@@ -4,7 +4,45 @@
 @import 'libs';
 @import 'global';
 
+.header {
+    padding: 80px 0 30px;
 
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @extend%sofia-pro-400;
+        border-bottom: 1px solid #97A1B6;
+        border-radius: 0.416667px;
+        padding-bottom: 30px;
+    }
+
+}
+
+.logo {
+    font-size: 29.1667px;
+    line-height: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 75px;
+    font-size: 15px;
+    line-height: 15px;
+
+    &__item {}
+}
+
+.user-nav {
+    display: flex;
+    gap: 30px;
+
+    &__search {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
 
 
 
