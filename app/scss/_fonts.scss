@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'sofia-pro';
+    font-weight: 400;
+    font-style: normal;
+    src: local('sofia-pro'),
+        url('../fonts/sofia-pro.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'stangith-light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('stangith-normal'),
+        url('../fonts/stangith.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'stangith-normal';
+    font-weight: 400;
+    font-style: normal;
+    src: local('stangith-normal'),
+        url('../fonts/stangith.woff2') format('woff2');
+    font-display: swap;
+}
