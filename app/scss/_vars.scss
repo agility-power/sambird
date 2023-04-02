@@ -1,39 +1,29 @@
-// $accent: #ed5565;
-// $title: #29282d;
-// $default: #8d8d8d;
-// $bg: #f6f6f6;
-
 %sofia-pro-400 {
-    font-family: 'sofia-pro', sans-serif;
+    font-family: 'sofia-pro';
     font-weight: 400;
 }
 
 %stangith-light {
-    font-family: 'stangith-light', sans-serif;
+    font-family: 'stangith-light';
     font-weight: 300;
     font-size: 15px;
     line-height: 138%;
 }
 
 %stangith-normal {
-    font-family: 'stangith-normal', sans-serif;
+    font-family: 'stangith-normal';
     font-weight: 400;
 }
 
-%checkbox-hidden,
-%radio-hidden {
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    position: absolute;
-}
-
-// %title-font {
-//   font-family: 'Montserrat', sans-serif;
-//   font-weight: 700;
-//   color: #363838;
+// %checkbox-hidden,
+// %radio-hidden {
+//     width: 1px;
+//     height: 1px;
+//     overflow: hidden;
+//     clip: rect(0 0 0 0);
+//     position: absolute;
 // }
+
 
 @function max($numbers...) {
     @return m#{a}x(#{$numbers});

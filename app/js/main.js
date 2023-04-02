@@ -8,13 +8,13 @@ $(function () {
             effectsOut: 'fade translateY(-100%)'
         }
     })
-    //   $('.top-slider__inner').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     dots: true,
-    //     fade: true,
-    //   })
+    $('.slider__items').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        fade: true,
+    })
 
 
 
