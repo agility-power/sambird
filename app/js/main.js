@@ -2,7 +2,7 @@ $(function () {
 
     var mixer = mixitup('.gallery__wrapper', {
         load: {
-            filter: '.Glass-Bottels'
+            filter: '.glass-bottels'
         },
         animation: {
             effectsOut: 'fade translateY(-100%)'
