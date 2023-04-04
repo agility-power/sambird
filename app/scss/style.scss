@@ -284,22 +284,35 @@
 .slider {
 
     &__items {
-        // background-image: url('../images/slider-item-bg.svg');
-        // background-repeat: no-repeat;
-        // background-position: center;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
         gap: 100px;
     }
 
     &__item {
-        margin: 0 auto;
+        width: 560px;
     }
 
     &__item-box {
-        width: 485px;
+        margin: 0 auto;
+        width: 484px;
         text-align: center;
+        position: relative;
+
+
+        &::before {
+            content: "";
+            background-image: url('../images/icons/apostrophe.svg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            width: 103px;
+            height: 77px;
+            z-index: 5;
+        }
     }
 
     &__item-imgbox {
@@ -314,6 +327,10 @@
         margin: 0 auto 20px;
     }
 
+    &__item-content {
+        margin: 0 auto;
+    }
+
     &__item-avatar {
         border-radius: 50%;
         width: 121px;
@@ -324,6 +341,7 @@
     &__item-text {
         font-size: 15px;
         line-height: 138%;
+        width: 483px;
         margin-bottom: 16px;
     }
 
@@ -345,6 +363,12 @@
         margin: 0 20px;
         width: 450px;
 
+    }
+
+    .slick-current {
+        background-image: url('../images/slider-item-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .slick-dots {

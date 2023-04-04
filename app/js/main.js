@@ -12,12 +12,12 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
-        variableWidth: true,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        cssEase: 'linear',
+        autoplaySpeed: 10000,
+        speed: 3000,
         arrows: false,
         dots: true,
-        fade: true,
     })
 
 })
