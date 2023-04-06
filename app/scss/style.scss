@@ -235,6 +235,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 28px;
+        text-align: center;
     }
 
     &__items-all {
@@ -586,6 +587,7 @@
         font-weight: 300;
         font-size: 15px;
         line-height: 15px;
+        margin-right: 15px;
     }
 
     &__social {
