@@ -18,6 +18,19 @@ $(function () {
         speed: 3000,
         arrows: false,
         dots: true,
+        responsive: [
+            {
+                breakpoint: 1624,
+                settings: {
+                    slidesToShow: 2
+                },
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+
+        ]
     })
 
 })
